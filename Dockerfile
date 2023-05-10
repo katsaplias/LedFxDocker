@@ -14,7 +14,7 @@ RUN apt-get install -y gcc \
 		       pulseaudio
 RUN pip install --upgrade pip wheel setuptools
 RUN pip install lastversion
-RUN pip install git+https://github.com/LedFx/LedFx/releases/tag/v2.0.60
+RUN pip install git+https://github.com/LedFx/LedFx/tree/v0.10.7
 
 RUN apt-get install -y alsa-utils
 RUN adduser root pulse-access
